@@ -1,0 +1,91 @@
+/*TEMPLATE*/
+body{
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	/*background: linear-gradient(#ffffff, blue);*/
+	background: lightgray;
+}
+
+/*TEMPLATE END*/
+
+/*NAVIGATION*/
+nav{
+	background: #3b5998;
+}
+
+nav .brand-logo{
+	padding-left: 35%;
+}
+
+
+
+.content{
+	background: white;
+	margin-bottom: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+
+.btn{
+	background-color: #4267b2 !important;
+    border-color: #29487d !important;
+	margin-left: 39%;
+	font-size: 12px;
+	padding-top: 0 !important;
+}
+
+.input-field{
+	width: 100%;
+}
+
+.searchbox{
+	padding-left: 35%;
+
+}
+
+#map {
+    height: 400px;
+	width: 100%;
+}
+
+#table-wrapper {
+  position:relative;
+}
+
+#table-scroll {
+height: 400px;
+  overflow:auto;  
+  margin-top:20px;
+}
+
+#table-wrapper table thead th .text {
+  position:absolute;   
+  z-index:2;
+}
+
+.modal{
+	width: 50% !important;
+}
+
+.modalImg{
+	width: 100%;
+}
+
+.modalIcons{
+	height: 1em;
+	margin-right: 15px;
+}
+
+.modal-footer .btn-flat{
+	background-color: #4267b2 !important;
+    border-color: #29487d !important;
+	color: #ffffff;
+}
+
+@media only screen and (max-width: 992px){
+	nav .brand-logo {
+		left: 34%;
+	}
+}
